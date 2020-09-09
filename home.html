@@ -21,9 +21,16 @@
         </header>
         <main>
             <div class="search">
-                <input id="CEP" type="text" class="form-control" placeholder="Digite o CEP aqui (Exemplo:01001001)" aria-label="Username" aria-describedby="basic-addon1">
+                <input id="CEP" type="text" class="form-control" placeholder="Digite o CEP aqui (Exemplo:01001-001)" aria-label="Username" aria-describedby="basic-addon1">
                 <button type="button" class="btn btn-primary btn-lg" onclick="clicked()">Pesquisar</button>
-            </div>               
+            </div>    
+            <div class="response">
+                <label>Logradouro</label><input id="Logradouro" type="text" class="form-control">
+                <label>Bairro</label><input id="Bairro" type="text" class="form-control">
+                <label>Localidade</label><input id="Localidade" type="text" class="form-control">
+                <label>Unidade Federativa</label><input id="Uf" type="text" class="form-control">
+                <label>DDD da região</label><input id="DDD" type="text" class="form-control">
+            </div>          
         </main>
     </body>
 </html>
