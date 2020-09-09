@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html language="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <script src="scriptHome.js"></script>
+        <script src="node_modules/axios/dist/axios.min.js"></script>
+        <title>CepSystem</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>CepSystem</h1>
+                <nav>
+                    <link rel="stylesheet" href="css/homeStyle.css">
+                    <a href="#">Início</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Ajuda</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="search">
+                <input id="CEP" type="text" class="form-control" placeholder="Digite o CEP aqui (Exemplo:01001001)" aria-label="Username" aria-describedby="basic-addon1">
+                <button type="button" class="btn btn-primary btn-lg" onclick="clicked()">Pesquisar</button>
+            </div>               
+        </main>
+    </body>
+</html>
